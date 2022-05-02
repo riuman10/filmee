@@ -4,6 +4,7 @@ import './index.css';
 import Navbar from './Navbar';
 import Header from './Header';
 import Card from './Card'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 function Footer() {
       return (
@@ -22,15 +23,19 @@ function Page() {
       <Navbar /> {/* Navigation Bar Component */}
       <Header /> {/* Header Component */}
           <div className='movies'>  {/* Movie Components */}
+            <AnimationOnScroll animateIn="animate__bounceIn">
             <Card genre = 'Sci-fi'
                   image = "/posters/Interstellar.jpeg"
-                  title = "Interstellar"
+                  title = "Interstella"
                   rating = "9.5" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__bounceIn">
             <Card genre = 'Crime'
                   image = "/posters/seven.jpeg"
                   title = "Seven"
                   rating = "7.5" />
+            </AnimationOnScroll>
 
             <Card genre = "Thriller"
                   image = "/posters/mirage.jpeg"
