@@ -23,14 +23,14 @@ function Page() {
       <Navbar /> {/* Navigation Bar Component */}
       <Header /> {/* Header Component */}
           <div className='movies'>  {/* Movie Components */}
-            <AnimationOnScroll animateIn="animate__bounceIn">
+            <AnimationOnScroll animateIn="animate__fadeInDown">
             <Card genre = 'Sci-fi'
                   image = "/posters/Interstellar.jpeg"
                   title = "Intersteller"
                   rating = "9.5" />
             </AnimationOnScroll>
 
-            <AnimationOnScroll animateIn="animate__bounceIn">
+            <AnimationOnScroll animateIn="animate__fadeInDown">
             <Card genre = 'Crime'
                   image = "/posters/seven.jpeg"
                   title = "Seven"
