@@ -26,7 +26,7 @@ function Page() {
             <AnimationOnScroll animateIn="animate__bounceIn">
             <Card genre = 'Sci-fi'
                   image = "/posters/Interstellar.jpeg"
-                  title = "Interstella"
+                  title = "Intersteller"
                   rating = "9.5" />
             </AnimationOnScroll>
 
