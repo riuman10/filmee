@@ -320,16 +320,16 @@ function Page() {
 
             <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.3'>
             <Card genre = 'Thriller'
-                  image = "/posters/malang.webp"  
-                  title = "Malang"
-                  rating = "9" />
+                  image = "/posters/enola.jpeg"  
+                  title = "Enola Holmes"
+                  rating = "7.5" />
             </AnimationOnScroll>
 
             <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.5'>
             <Card genre = 'Action'
-                  image = "/posters/muhafiz.jpeg"  
-                  title = "Muhafiz"
-                  rating = "7" />
+                  image = "/posters/underground.jpg"  
+                  title = "6 Underground"
+                  rating = "8" />
             </AnimationOnScroll>
 
 
