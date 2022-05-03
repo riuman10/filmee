@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Header from './Header';
 import Card from './Card'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
 
 function Footer() {
       return (
@@ -30,42 +31,54 @@ function Page() {
                   rating = "9.5" />
             </AnimationOnScroll>
 
-            <AnimationOnScroll animateIn="animate__fadeInDown">
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.2'>
             <Card genre = 'Crime'
                   image = "/posters/seven.jpeg"
                   title = "Seven"
                   rating = "7.5" />
             </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.3'>
             <Card genre = "Thriller"
                   image = "/posters/mirage.jpeg"
                   title = "Mirage"
                   rating = "6.5" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.5'>
             <Card genre = 'Drama'
                   image = "/posters/manifest.jpeg"
                   title = "Manifest"
                   rating = "9" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown">
             <Card genre = 'Thriller'
                   image = "/posters/moneyheist.webp"
                   title = "La Casa De Papel"
                   rating = "9" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.2'>
             <Card genre = 'Thriller'
                   image = "/posters/fightclub.jpeg"  
                   title = "Fight Club"
                   rating = "9.9" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.3'>
             <Card genre = 'Comedy/Disaster'
                   image = "/posters/dontlookup.jpeg"  
                   title = "Don't Look Up"
                   rating = "7.5" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.5'>
             <Card genre = 'Action'
                   image = "/posters/rednotice.jpg"  
                   title = "Red Notice"
                   rating = "6" />
+            </AnimationOnScroll>
 
             <Card genre = 'Action'
                   image = "/posters/extraction.jpg"  
