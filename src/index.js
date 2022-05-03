@@ -164,25 +164,33 @@ function Page() {
                   rating = "9" />
             </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown">
             <Card genre = 'Documentary'
                   image = "/posters/socialdillema.jpeg"  
                   title = "Social Dillema"
                   rating = "8" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.2'>
             <Card genre = 'Thriller'
                   image = "/posters/shawshank.jpeg"  
                   title = "Social Dillema"
                   rating = "9" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.3'>
             <Card genre = 'Mystery'
                   image = "/posters/imitation.jpg"  
                   title = "The Imitation Game"
                   rating = "7" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.5'>
             <Card genre = 'Drama'
                   image = "/posters/sully.jpeg"  
                   title = "Sully"
                   rating = "8.5" />
+            </AnimationOnScroll>
                   
           </div>
       <Footer />
