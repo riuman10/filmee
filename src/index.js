@@ -248,6 +248,27 @@ function Page() {
                   rating = "9" />
             </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown">
+            <Card genre = 'Docuserie'
+                  image = "/posters/nightstalker.png"  
+                  title = "Night Stalker"
+                  rating = "9.5" />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.2'>
+            <Card genre = 'Thriller'
+                  image = "/posters/darknight.jpeg"  
+                  title = "The Dark Knight"
+                  rating = "8.5" />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.3'>
+            <Card genre = 'Comedy'
+                  image = "/posters/whitehouse.jpg"  
+                  title = "White House Down"
+                  rating = "7" />
+            </AnimationOnScroll>
+
 
                   
           </div>
