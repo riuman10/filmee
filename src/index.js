@@ -213,6 +213,34 @@ function Page() {
                   rating = "6" />
             </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.5'>
+            <Card genre = 'Thriller'
+                  image = "/posters/sonofsam.jpg"  
+                  title = "Sons of Sam"
+                  rating = "9" />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown">
+            <Card genre = 'Docuserie'
+                  image = "/posters/themurderer.jpg"  
+                  title = "The Women and the Muderer"
+                  rating = "9.5" />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.2'>
+            <Card genre = 'Thriller'
+                  image = "/posters/robot.jpg"  
+                  title = "Mr. Robot"
+                  rating = "8" />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.3'>
+            <Card genre = 'Comedy'
+                  image = "/posters/seinfeld.webp"  
+                  title = "Seinfeld"
+                  rating = "7" />
+            </AnimationOnScroll>
+
 
                   
           </div>
