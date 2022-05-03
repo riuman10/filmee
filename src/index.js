@@ -241,6 +241,13 @@ function Page() {
                   rating = "7" />
             </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.5'>
+            <Card genre = 'Thriller'
+                  image = "/posters/adam.jpg"  
+                  title = "The Adam Project"
+                  rating = "9" />
+            </AnimationOnScroll>
+
 
                   
           </div>
