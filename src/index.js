@@ -311,6 +311,27 @@ function Page() {
                   rating = "7" />
             </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.2'>
+            <Card genre = 'Drama'
+                  image = "/posters/narcos.jpeg"  
+                  title = "Narcos"
+                  rating = "9.5" />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.3'>
+            <Card genre = 'Thriller'
+                  image = "/posters/malang.webp"  
+                  title = "Malang"
+                  rating = "9" />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.5'>
+            <Card genre = 'Action'
+                  image = "/posters/muhafiz.jpeg"  
+                  title = "Muhafiz"
+                  rating = "7" />
+            </AnimationOnScroll>
+
 
 
                   
