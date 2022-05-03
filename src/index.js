@@ -263,11 +263,54 @@ function Page() {
             </AnimationOnScroll>
 
             <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.3'>
-            <Card genre = 'Comedy'
+            <Card genre = 'Action'
                   image = "/posters/whitehouse.jpg"  
                   title = "White House Down"
                   rating = "7" />
             </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.5'>
+            <Card genre = 'True Story'
+                  image = "/posters/americanmurder.png"  
+                  title = "American Murder"
+                  rating = "9" />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown">
+            <Card genre = 'Docuserie'
+                  image = "/posters/tedbundy.jpg"  
+                  title = "Ted Bundy Tapes"
+                  rating = "9.5" />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.2'>
+            <Card genre = 'Thriller'
+                  image = "/posters/zodiac.jpeg"  
+                  title = "Zodiac"
+                  rating = "8.5" />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.3'>
+            <Card genre = 'Thriller'
+                  image = "/posters/malang.webp"  
+                  title = "Malang"
+                  rating = "9" />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.5'>
+            <Card genre = 'Action'
+                  image = "/posters/muhafiz.jpeg"  
+                  title = "Muhafiz"
+                  rating = "7" />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown">
+            <Card genre = 'Thriller'
+                  image = "/posters/biohackers.webp"  
+                  title = "Biohackers"
+                  rating = "7" />
+            </AnimationOnScroll>
+
 
 
                   
