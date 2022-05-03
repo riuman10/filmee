@@ -80,45 +80,61 @@ function Page() {
                   rating = "6" />
             </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown">
             <Card genre = 'Action'
                   image = "/posters/extraction.jpg"  
                   title = "Extraction"
                   rating = "7" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.2'>
             <Card genre = 'Mystery'
                   image = "/posters/shutterisland.jpg"  
                   title = "Shutter Island"
                   rating = "8" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.3'>
             <Card genre = 'Inspirational'
                   image = "/posters/theintern.jpeg"  
                   title = "The Intern"
                   rating = "9.5" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.5'>
             <Card genre = 'Inspirational'
                   image = "/posters/jobs.jpeg"  
                   title = "Jobs"
                   rating = "8" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown">
             <Card genre = 'Romance'
                   image = "/posters/luckyone.jpeg"  
                   title = "The Lucky One"
                   rating = "7" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.2'>
             <Card genre = 'Drama'
                   image = "/posters/suits.jpeg"  
                   title = "Suits"
                   rating = "9" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.3'>
             <Card genre = 'Drama'
                   image = "/posters/peaky.jpeg"  
                   title = "Peaky Blinders"
                   rating = "9" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.5'>
             <Card genre = 'Sci-fi'
                   image = "/posters/lucy.jpg"  
                   title = "Lucy"
                   rating = "7" />
+            </AnimationOnScroll>
 
             <Card genre = 'Medical Drama'
                   image = "/posters/house.jpeg"  
