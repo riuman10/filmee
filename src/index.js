@@ -193,11 +193,27 @@ function Page() {
             </AnimationOnScroll>
 
             <AnimationOnScroll animateIn="animate__fadeInDown">
-            <Card genre = 'Documentary'
+            <Card genre = 'Docuserie'
                   image = "/posters/confessionKiller.webp"  
                   title = "Confession Killer"
                   rating = "9" />
             </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.2'>
+            <Card genre = 'Inspiring'
+                  image = "/posters/blindside.jpg"  
+                  title = "The Blind Side"
+                  rating = "7" />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.3'>
+            <Card genre = 'Comedy'
+                  image = "/posters/think.jpeg"  
+                  title = "Think like a man"
+                  rating = "6" />
+            </AnimationOnScroll>
+
+
                   
           </div>
       <Footer />
