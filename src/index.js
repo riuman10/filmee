@@ -136,25 +136,33 @@ function Page() {
                   rating = "7" />
             </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown">
             <Card genre = 'Medical Drama'
                   image = "/posters/house.jpeg"  
                   title = "House"
                   rating = "9" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.2'>
             <Card genre = 'Comedy'
                   image = "/posters/freshprince.jpg"  
                   title = "Fresh Prince of Bel Air"
                   rating = "9" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.3'>
             <Card genre = 'Thriller'
                   image = "/posters/v.jpeg"  
                   title = "V for Vendetta"
                   rating = "9.9" />
+            </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.5'>
             <Card genre = 'Drama'
                   image = "/posters/himym.png"  
                   title = "How I met your Mother"
                   rating = "9" />
+            </AnimationOnScroll>
 
             <Card genre = 'Documentary'
                   image = "/posters/socialdillema.jpeg"  
