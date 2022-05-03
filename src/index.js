@@ -191,6 +191,13 @@ function Page() {
                   title = "Sully"
                   rating = "8.5" />
             </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown">
+            <Card genre = 'Documentary'
+                  image = "/posters/confessionKiller.webp"  
+                  title = "Confession Killer"
+                  rating = "9" />
+            </AnimationOnScroll>
                   
           </div>
       <Footer />
