@@ -2,4 +2,4 @@
 Some of my favourite movies, With it's ratings. And genre. 
 Made for myself to look back on the movie's i've watched
 
-[Link text Here](https://mrafilmee.netlify.app/)
+[Link](https://mrafilmee.netlify.app/)
