@@ -341,22 +341,22 @@ function Page() {
 
             <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.2'>
             <Card genre = 'Mystery'
-                  image = "/posters/lincoln.jpeg"  
+                  image = "/posters/lincoln.jpg"  
                   title = "The Lincoln Lawyer"
                   rating = "9.5" />
             </AnimationOnScroll>
 
             <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.3'>
-            <Card genre = 'True Crime'
-                  image = "/posters/enola.jpeg"  
-                  title = "Heist"
-                  rating = "6" />
+            <Card genre = 'Thriller'
+                  image = "/posters/dunkirk.jpg"  
+                  title = "Dunkirk"
+                  rating = "7" />
             </AnimationOnScroll>
 
             <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.5'>
-            <Card genre = 'Action'
-                  image = "/posters/underground.jpg"  
-                  title = ""
+            <Card genre = 'True Crime'
+                  image = "/posters/catchme.webp"  
+                  title = "Catch me if you can"
                   rating = "9" />
             </AnimationOnScroll>
 
