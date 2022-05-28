@@ -322,7 +322,7 @@ function Page() {
             <Card genre = 'Thriller'
                   image = "/posters/enola.jpeg"  
                   title = "Enola Holmes"
-                  rating = "7.5" />
+                  rating = "6" />
             </AnimationOnScroll>
 
             <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.5'>
