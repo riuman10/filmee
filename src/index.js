@@ -332,6 +332,36 @@ function Page() {
                   rating = "8" />
             </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeInDown">
+            <Card genre = 'Action'
+                  image = "/posters/thehunt.jpeg"  
+                  title = "The Hunt"
+                  rating = "9" />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.2'>
+            <Card genre = 'Mystery'
+                  image = "/posters/lincoln.jpeg"  
+                  title = "The Lincoln Lawyer"
+                  rating = "9.5" />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.3'>
+            <Card genre = 'True Crime'
+                  image = "/posters/enola.jpeg"  
+                  title = "Heist"
+                  rating = "6" />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll animateIn="animate__fadeInDown" duration = '1.5'>
+            <Card genre = 'Action'
+                  image = "/posters/underground.jpg"  
+                  title = ""
+                  rating = "9" />
+            </AnimationOnScroll>
+
+
+
 
 
                   
